@@ -1,0 +1,10 @@
+const { signup } = require('../services/user.service')
+
+
+const router=require('express').Router()
+
+router.post('/',signup)
+
+
+
+module.exports=router
